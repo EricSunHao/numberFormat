@@ -1,0 +1,20 @@
+{
+    "name": "number-format/number-format",
+    "description": "数字处理工具",
+    "authors": [
+        {
+            "name": "eric",
+            "email": "1057111849@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php": ">= 5.3.0"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"numberFormat\\": "src/"
+    	}
+    },
+    "license": "MIT"
+}
